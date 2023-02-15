@@ -1,0 +1,34 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>tech.guanli.boot.suite</groupId>
+		<artifactId>springboot-starter-parent</artifactId>
+		<version>1.0.1-RELEASE</version>
+	</parent>
+	<artifactId>mybatis-plus-dml-history-spring-boot-starter</artifactId>
+	<version>1.0.0-RELEASE</version>
+	<dependencies>
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-boot-starter</artifactId>
+		</dependency>
+	</dependencies>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version2.0</name>
+			<url>http://www.apache.org/licenses/</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+		<url>https://github.com/guanli-developer/boot-suite-mybatis-plus-dml-history-spring-boot-starter</url>
+		<connection>https://github.com/guanli-developer/boot-suite-mybatis-plus-dml-history-spring-boot-starter.git</connection>
+		<developerConnection>https://github.com/guanli-developer/boot-suite-mybatis-plus-dml-history-spring-boot-starter</developerConnection>
+	</scm>
+	<developers>
+		<developer>
+			<name>Li.Guan</name>
+			<email>guanli_developer@aliyun.com</email>
+		</developer>
+	</developers>
+</project>
