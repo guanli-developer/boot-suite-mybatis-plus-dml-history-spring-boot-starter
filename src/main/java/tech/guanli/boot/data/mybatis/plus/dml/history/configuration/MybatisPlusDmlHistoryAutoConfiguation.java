@@ -8,6 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 
 import lombok.AllArgsConstructor;
+import tech.guanli.boot.data.mybatis.plus.dml.history.Package;
 import tech.guanli.boot.data.mybatis.plus.dml.history.component.DmlDeleteHistoryInnerInterceptor;
 import tech.guanli.boot.data.mybatis.plus.dml.history.component.DmlUpdateHistoryInnerInterceptor;
 

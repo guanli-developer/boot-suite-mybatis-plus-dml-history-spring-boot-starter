@@ -7,12 +7,13 @@ import java.util.Objects;
 import org.apache.ibatis.executor.Executor;
 import org.apache.ibatis.mapping.MappedStatement;
 import org.apache.ibatis.mapping.SqlCommandType;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import lombok.AllArgsConstructor;
+
 @Component
+@AllArgsConstructor
 public class DmlUpdateHistoryInnerInterceptor extends DmlHistoryInnerInterceptor {
-	@Autowired
 	private List<UpdateAuditor> auditors;
 
 	@Override
